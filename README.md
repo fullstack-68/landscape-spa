@@ -1,13 +1,15 @@
 # Todo App (Single-Page Application)
 
-## Frontend
-
-- `cd frontend`
-- `npm run build`
-- `npm run preview`
-
 ## Backend
 
-- `cd backend`
-- `npm run dev`
-- You can adjust server latency in `db.ts`.
+- `cd spa/backend`
+- `pnpm install`
+- `pnpm run build`
+- `pnpm run start`
+
+## Frontend
+
+- `cd spa/frontend`
+- `pnpm install`
+- `pnpm run build`
+- `pnpm run preview`
